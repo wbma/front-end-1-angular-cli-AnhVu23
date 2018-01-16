@@ -11,7 +11,7 @@ export class RecipeService {
         new Recipe(
             // tslint:disable-next-line:max-line-length
             'Lasagne',
-            'Hot meal!', 'http://img.taste.com.au/iaDIyGWp/w720-h480-cfill-q80/taste/2016/11/beef-and-prosciutto-lasagne-62904-1.jpeg',
+            'Hot Meal!', 'http://img.taste.com.au/iaDIyGWp/w720-h480-cfill-q80/taste/2016/11/beef-and-prosciutto-lasagne-62904-1.jpeg',
             [
                 new Ingredient('Tomato', 1),
                 new Ingredient('Lasagne', 6),

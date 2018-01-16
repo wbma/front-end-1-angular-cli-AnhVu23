@@ -25,7 +25,7 @@ export class RecipeService {
             [
                 new Ingredient('Tomato', 1),
                 new Ingredient('Wheat Flour', 500),
-                new Ingredient('Mince beef', 200),
+                new Ingredient('Pepperoni', 200),
                 new Ingredient('Mozarella', 400)
             ])
     ];

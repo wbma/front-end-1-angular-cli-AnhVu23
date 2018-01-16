@@ -1,3 +1,4 @@
+import { Ingredient } from './../shared/ingredient.model';
 import { Recipe } from './recipe.model';
 import { Injectable } from '@angular/core';
 import { Ingredient } from '../shared/ingredient.model';
@@ -9,19 +10,23 @@ export class RecipeService {
     private recipes: Recipe[] = [
         new Recipe(
             // tslint:disable-next-line:max-line-length
-            'Ketchup',
-            'Delicious red sour sauce is about to come!', 'https://cdn-image.realsimple.com/sites/default/files/styles/rs_horizontal_image_4/public/ketchup-pour.jpg?itok=drVffsZn',
+            'Lasagne',
+            'Hot meal!', 'http://img.taste.com.au/iaDIyGWp/w720-h480-cfill-q80/taste/2016/11/beef-and-prosciutto-lasagne-62904-1.jpeg',
             [
                 new Ingredient('Tomato', 1),
-                new Ingredient('Sugar', 2)
+                new Ingredient('Lasagne', 6),
+                new Ingredient('Mince beef', 200),
+                new Ingredient('Mozarella', 400)
             ]),
         new Recipe(
             // tslint:disable-next-line:max-line-length
-            'Tomato sauce',
-            'Delicious red sour sauce is about to come!', 'https://cdn-image.realsimple.com/sites/default/files/styles/rs_horizontal_image_4/public/ketchup-pour.jpg?itok=drVffsZn',
+            'Pizza',
+            'Italian Gift!', 'https://www.cicis.com/media/1243/pizza_adven_zestypepperoni.png',
             [
                 new Ingredient('Tomato', 1),
-                new Ingredient('Salt', 2)
+                new Ingredient('Wheat Flour', 500),
+                new Ingredient('Mince beef', 200),
+                new Ingredient('Mozarella', 400)
             ])
     ];
 
